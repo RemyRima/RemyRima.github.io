@@ -175,7 +175,9 @@ footer{
     header nav,
     header nav li,
     #newsletter h1,
-    #newsletter form
+    #newsletter form,
+    #boxes .col-sm-4,
+    footer
     {
         float: none;
         text-align: center;
@@ -191,7 +193,13 @@ footer{
         background-position:center;
   
     }
-    #showcase h1{
-       
-    } 
+    body{
+        padding-bottom: 60px;        
+    }
+  footer{
+        position: absolute;
+
+    bottom:-1500px;
+
+  }
 }
